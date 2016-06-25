@@ -1,0 +1,40 @@
+{
+  "name": "watchface",
+  "author": "Brennan Lawrence",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface",
+    "uuid": "b0a399d7-3892-433d-bd3a-2df6c19583d9",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+                {
+                "type": "font",
+                "name": "FONT_PERFECT_DOS_48",
+                "file": "fonts/usmc.ttf",
+                "compatibility":"2.7"
+                },
+                {
+                "type": "bitmap",
+                "name": "IMAGE_BACKGROUND",
+                "file": "images/background.png"
+                }
+    ]
+    }
+  }
+}
